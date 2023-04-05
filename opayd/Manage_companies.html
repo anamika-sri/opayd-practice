@@ -47,11 +47,6 @@
 
       <nav class="header-nav ms-auto">
         <ul class="d-flex align-items-center">
-          <li class="nav-item d-block d-lg-none">
-            <a class="nav-link nav-icon search-bar-toggle" href="#">
-              <i class="bi bi-search"></i>
-            </a>
-          </li>
           <li class="nav-item dropdown pe-5">
             <a
               class="nav-link nav-profile d-flex align-items-center pe-0"
@@ -109,7 +104,7 @@
         <!-- End Dashboard Nav -->
 
         <li class="nav-item">
-          <a class="nav-link collapsed" href="Manage_companies.html">
+          <a class="nav-link" href="Manage_companies.html">
             <i class="bi bi-people"></i><span>Manage Companies</span>
           </a>
 
@@ -198,101 +193,106 @@
           </a>
         </div>
       </div>
-      <section class="section">
-        <div class="row">
-          <div class="col-lg">
-            <div class="card">
-              <div class="card-body mt-4">
-                <div class="d-flex justify-content-between">
-                  <p class="card-title justify-content-center">
-                    Company Listing
-                  </p>
-
-                  <div class="search-container">
-                    <form action="">
-                      <div class="d-flex">
-                        <input
-                          type="text"
-                          name=""
-                          class="ms-2 form-control"
-                          placeholder="Search"
-                        />
-                        <button
-                          style="background-color: #4b49ac; color: white"
-                          type="button "
-                          class="ms-2 btn rounded"
-                        >
-                          search
-                        </button>
-                        <button
-                          style="background-color: #4b49ac; color: white"
-                          class="ms-2 btn rounded"
-                          type="button"
-                        >
-                          Reset
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <!-- Table with hoverable rows -->
-                <table class="table table-responsive">
-                  <thead>
-                    <tr class="text-center">
-                      <th>Company Logo</th>
-                      <th scope="col">Company Name</th>
-                      <th scope="col">User</th>
-                      <th scope="col">Address</th>
-                      <th scope="col">City</th>
-                      <th scope="col">Postcode</th>
-                      <th scope="col">Created at</th>
-                      <th scope="col">Action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="text-center">
-                      <td>1</td>
-                      <td>Brandon Jacob</td>
-                      <td>Designer</td>
-                      <td>28</td>
-                      <td>2016-05-25</td>
-                      <td>2016-05-25</td>
-                      <td>2016-05-25</td>
-
-                      <td>
-                        <a
-                          href="Manage Companies_edit.html"
-                          class="btn btn-light"
-                          ><i class="bi bi-pencil-square"></i
-                        ></a>
-                        <a href="" class="btn btn-light"> Deactivate </a>
-                      </td>
-                    </tr>
-                    <tr class="text-center">
-                      <td>2</td>
-                      <td>Bridie Kessler</td>
-                      <td>Developer</td>
-                      <td>35</td>
-                      <td>2014-12-05</td>
-                      <td>2016-05-25</td>
-                      <td>2016-05-25</td>
-                      <td>
-                        <a
-                          href="Manage Companies_edit.html"
-                          class="btn btn-light"
-                          ><i class="bi bi-pencil-square"></i
-                        ></a>
-                        <a href="" class="btn btn-light"> Deactivate </a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- End Table with hoverable rows -->
-              </div>
-            </div>
+      <section class="section"> 
+        <div class="card">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mt-4 me-3">
+            <p>Company Listing</p>
+            <div class="form">
+              <div class="row">
+                  <div class="col ms-2">
+                      <div class="input-group mb-3">
+                         <input type="text" class="form-control " placeholder="Enter Your Keyword"> 
+                         <a href="" class="form-control btn btn-light rounded-end "> Search</a>
+                         <div class="col">
+                          <a href="" class="form-control btn btn-light rounded-end ms-3"> Submit</a>
+                  </div>  
+              
+           </div>
+            </form>
           </div>
         </div>
+      </div>
+          </div>
+          <div class="table-responsive">
+              <table class="table">
+                  <thead>
+                      <tr class="text-center">
+                        <tr class="text-center">
+                          <th>Company Logo</th>
+                          <th scope="col">Company Name</th>
+                          <th scope="col">User</th>
+                          <th scope="col">Address</th>
+                          <th scope="col">City</th>
+                          <th scope="col">Postcode</th>
+                          <th scope="col">Created at</th>
+                          <th scope="col">Action</th>
+                        </tr>
+  
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="text-center">
+                        <td>1</td>
+                          <td>Brandon Jacob</td>
+                          <td>Designer</td>
+                          <td>28</td>
+                          <td>2016-05-25</td>
+                          <td>2016-05-25</td>
+                          <td>2016-05-25</td>
+
+                          <td>
+                            <a
+                              href="Manage Companies_edit.html"
+                              class="btn btn-light"
+                              ><i class="bi bi-pencil-square"></i
+                            ></a>
+                            <a href="" class="btn btn-light"> Deactivate </a>
+                          </td>
+                        </tr>
+                        <tr class="text-center">
+                          <td>2</td>
+                          <td>Bridie Kessler</td>
+                          <td>Developer</td>
+                          <td>35</td>
+                          <td>2014-12-05</td>
+                          <td>2016-05-25</td>
+                          <td>2016-05-25</td>
+                          <td>
+                            <a
+                              href="Manage Companies_edit.html"
+                              class="btn btn-light"
+                              ><i class="bi bi-pencil-square"></i
+                            ></a>
+                            <a href="" class="btn btn-light"> Deactivate </a>
+                          </td> 
+  
+                      </tr>
+                      <tr class="text-center">
+                        <td>2</td>
+                        <td>Bridie Kessler</td>
+                        <td>Developer</td>
+                        <td>35</td>
+                        <td>2014-12-05</td>
+                        <td>2016-05-25</td>
+                        <td>2016-05-25</td>
+                        <td>
+                          <a
+                            href="Manage Companies_edit.html"
+                            class="btn btn-light"
+                            ><i class="bi bi-pencil-square"></i
+                          ></a>
+                          <a href="" class="btn btn-light"> Deactivate </a>
+                        </td>
+                      </tr>
+                  </tbody>
+              </table>
+            </div>
+       
+                  </div>
+                </div>
       </section>
+      
     </main>
     <!-- End #main -->
     <!-- ======= Footer ======= -->

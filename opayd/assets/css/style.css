@@ -734,7 +734,7 @@ h6 {
 }
 
 
-.sidebar-nav .nav-link {
+/* .sidebar-nav .nav-link {
   display: flex;
   align-items: center;
   font-size: 15px;
@@ -751,8 +751,25 @@ h6 {
   font-size: 16px;
   margin-right: 10px;
   color: black;
+  
+} */
+.sidebar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3;
+  background: #4b49ac; ;
+  padding: 10px 15px;
+  border-radius: 4px;
 }
 
+.sidebar-nav .nav-link i {
+  font-size: 16px;
+  margin-right: 10px;
+  color: white;
+}
 
 .sidebar-nav .nav-link.collapsed {
   color: black;
