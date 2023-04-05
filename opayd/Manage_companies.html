@@ -185,26 +185,30 @@
     </aside>
     <!-- End Sidebar-->
     <main id="main" class="main">
-      <div class="d-flex justify-content-between mb-3">
-        <p class="card-title justify-content-center">Manage Companies</p>
-        <div class="text-center">
-          <a href="Manage_add.html" class="button btn btn-light p-3">
-            <i class="bi bi-plus-lg p-2"></i>Add New Company
+      <div class="row justify-content-center">
+        <div class="col">
+          <p class="card-title">Manage Employee</p>
+        </div>
+        <div class="col ">
+      <a href="Manage_add.html" class="button btn btn-light p-3 float-end">
+            <i class="bi bi-plus-lg p-1"></i>Add New Company
           </a>
         </div>
       </div>
       <section class="section"> 
-        <div class="card">
+        <div class="card mt-5">
         <div class="card-body">
           <div class="d-flex justify-content-between align-items-center mt-4 me-3">
             <p>Company Listing</p>
             <div class="form">
               <div class="row">
-                  <div class="col ms-2">
-                      <div class="input-group mb-3">
-                         <input type="text" class="form-control " placeholder="Enter Your Keyword"> 
-                         <a href="" class="form-control btn btn-light rounded-end "> Search</a>
-                         <div class="col">
+                  <div class="col ">
+                     <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                     <div class="input-group-btn">
+                     <button class="btn btn-light rounded-0 rounded-end" type="submit">Search</button>
+                    </div>
+                  <div class="col">
                           <a href="" class="form-control btn btn-light rounded-end ms-3"> Submit</a>
                   </div>  
               
@@ -214,7 +218,7 @@
         </div>
       </div>
           </div>
-          <div class="table-responsive">
+          <div class="table-responsive mt-3">
               <table class="table">
                   <thead>
                       <tr class="text-center">
@@ -247,7 +251,7 @@
                               class="btn btn-light"
                               ><i class="bi bi-pencil-square"></i
                             ></a>
-                            <a href="" class="btn btn-light"> Deactivate </a>
+                            <a href="" class="btn btn-light m-1"> Deactivate </a>
                           </td>
                         </tr>
                         <tr class="text-center">
@@ -264,7 +268,7 @@
                               class="btn btn-light"
                               ><i class="bi bi-pencil-square"></i
                             ></a>
-                            <a href="" class="btn btn-light"> Deactivate </a>
+                            <a href="" class="btn btn-light m-1"> Deactivate </a>
                           </td> 
   
                       </tr>
@@ -280,9 +284,9 @@
                           <a
                             href="Manage Companies_edit.html"
                             class="btn btn-light"
-                            ><i class="bi bi-pencil-square"></i
+                            ><i class="bi bi-pencil-square "></i
                           ></a>
-                          <a href="" class="btn btn-light"> Deactivate </a>
+                          <a href="" class="btn btn-light m-1"> Deactivate </a>
                         </td>
                       </tr>
                   </tbody>
