@@ -1,0 +1,192 @@
+body {
+  margin: 0px;
+  background-color: #f5f7ff;
+}
+
+#header {
+  padding: 0;
+}
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+.header_img {
+  border-radius: 100%;
+  align-items: end;
+}
+.headbox {
+  display: inline-block;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+/* .nav-link2 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background: #4b49ac;
+  color: white;
+} */
+
+.nav-item :hover {
+  background: #4b49ac;
+  color: white;
+}
+.nav-link i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.card1 {
+  background-color: #7da0fa;
+  color: white;
+}
+.card2 {
+  background-color: #7978e9;
+  color: white;
+}
+.card3 {
+  background-color: #7da0fa;
+  color: white;
+}
+.card4 {
+  background-color: #4747a1;
+  color: white;
+}
+.card5 {
+  background-color: #f3797e;
+  color: white;
+}
+span {
+  font-size: medium;
+  font-weight: 400;
+}
+.col-10 {
+  background-color: #f5f7ff;
+}
+.buttons {
+  text-decoration: none;
+  color: gray;
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.dropdown-menu :hover {
+  background-color: #f5f7ff;
+}
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+  border-radius: 2px white;
+}
+.card {
+  border: none;
+}
+.search-container {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+.input-group > .btn {
+  background-color: #4b49ac;
+  color: white;
+}
+p {
+  font-size: large;
+  font-weight: 500;
+}
+.thead {
+  background-color: #4b49ac;
+  color: white;
+}
+.btn-light {
+  background-color: #4b49ac;
+  color: white;
+  border: #4b49ac;
+  padding: 15px;
+}
+th {
+  font-size: medium;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.active {
+  background-color: #4b49ac;
+  color: white;
+  border-radius: 3px;
+}
+.form-control {
+  font-size: small;
+  font-weight: 400;
+  width: 40%;
+}
+.button {
+  background-color: #4b49ac;
+  color: white;
+  border-radius: 3px;
+  font-size: medium;
+  font-weight: 400;
+  text-decoration: none;
+}
+.btns {
+  background-color: #248afd;
+  color: white;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.employee-table-header {
+  background-color: #4b49ac;
+  color: white;
+  border-radius: 2px;
+}
+
+.btn.btn-sm {
+  padding: 0.5rem 0.81rem;
+  height: 2.575rem;
+  line-height: 1;
+}
+.btn-primary,
+.wizard > .actions a {
+  color: #fff;
+  background-color: #4b49ac;
+  border-color: #4b49ac;
+}
+.btn-info {
+  color: #fff;
+  background-color: #248afd;
+  border-color: #248afd;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #ff4747;
+  border-color: #ff4747;
+}
+@media screen and (max-width: 360px) {
+  .m-resposive {
+    width: 100%;
+  }
+}
